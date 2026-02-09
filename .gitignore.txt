@@ -1,0 +1,7 @@
+banco.db
+backup/
+dist/
+build/
+__pycache__/
+*.exe
+*.spec
