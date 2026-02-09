@@ -3,5 +3,6 @@ backup/
 dist/
 build/
 __pycache__/
+*.pyc
 *.exe
 *.spec
