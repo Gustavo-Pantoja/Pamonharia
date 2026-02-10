@@ -1,15 +1,57 @@
-# Sistema de Pamonharia
+# 🫔 Sistema Pamonharia
 
-Sistema em Python para controle de vendas de pamonharia.
+Sistema simples em Python para controle de vendas de pamonha com:
 
-## Funcionalidades
+✅ Registro de vendas  
+✅ Controle de caixa diário  
+✅ Backup automático do banco  
+✅ Reset diário protegido por senha  
+✅ Banco SQLite  
+✅ Versão executável (.exe)  
 
-- Registro de vendas
-- Controle diário de caixa
-- Backup automático
-- Sistema de senha admin
-- Estrutura modular
+---
 
-Projeto criado como estudo de programação e automação comercial.
+## 🚀 Tecnologias usadas
+
+- Python
+- SQLite
+- PyInstaller
+- Git / GitHub
+
+---
+
+## 📂 Estrutura do projeto
+
+Pamonharia/
+├── main.py
+├── caixa/
+├── menu/
+├── utils/
+└── backup/
+
+---
+
+## ▶ Como executar
+
+### Rodar em modo desenvolvimento:
+
+```bash
+python main.py
+
+```
+
+Usar versão compilada:
+
+Abra: 
+
+dist/pamonharia.exe
+
+---
+
+🧠 Projeto criado como estudo de programação e organização de negócios reais.
 
 Autor: Gustavo Pantoja
+2026
+
+
+
