@@ -1,9 +1,8 @@
-from caixa.caixa import registrar_venda
-from backup.backup import fazer_backup
-from caixa.reset_diario import iniciar_caixa_diario
-from caixa.reset import resetar_caixa
-from utils.auth import pedir_senha
-
+from app.services.caixa import registrar_venda
+from app.data.backup import fazer_backup
+from app.services.reset_diario import iniciar_caixa_diario
+from app.services.reset import resetar_caixa
+from app.core.auth import pedir_senha
 
 def menu_principal():
     iniciar_caixa_diario()

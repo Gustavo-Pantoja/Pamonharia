@@ -1,6 +1,7 @@
-from utils.db import conectar
+from app.data.db import conectar
 from datetime import date
-from utils.auth import pedir_senha
+from app.core.auth import pedir_senha
+
 
 def iniciar_caixa_diario():
     hoje = date.today().isoformat()

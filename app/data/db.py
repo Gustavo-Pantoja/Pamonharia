@@ -1,7 +1,14 @@
 import sqlite3
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+DB_PATH = BASE_DIR / "banco.db"
 
 def conectar():
-    conn = sqlite3.connect("banco.db")
+    return sqlite3.connect(DB_PATH)
+
+def conectar():
+    conn = sqlite3.connect(DB_PATH)
     criar_tabelas(conn)
     return conn
 

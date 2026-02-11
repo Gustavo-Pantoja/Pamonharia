@@ -1,4 +1,4 @@
-from utils.db import conectar
+from app.data.db import conectar
 from datetime import date
 
 def registrar_venda():
